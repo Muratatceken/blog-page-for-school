@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NewsFlash | Post</title>
+    <title>Murat Atçeken | Posts</title>
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.png">
     <!-- Remix icons -->
@@ -18,7 +18,7 @@
     <header class="header">
         <nav class="navbar container" id="navbar">
             <a href="./index.html">
-                <h2 class="logo">NewsFlash</h2>
+                <h2 class="logo">Murat Atçeken</h2>
             </a>
             <div class="menu" id="menu">
                 <ul class="list">
@@ -26,19 +26,10 @@
                         <a href="#" class="list-link current">Home</a>
                     </li>
                     <li class="list-item">
-                        <a href="#" class="list-link">Categories</a>
-                    </li>
-                    <li class="list-item">
-                        <a href="#" class="list-link">Reviews</a>
-                    </li>
-                    <li class="list-item">
-                        <a href="#" class="list-link">News</a>
-                    </li>
-                    <li class="list-item">
-                        <a href="#" class="list-link">Membership</a>
-                    </li>
-                    <li class="list-item">
                         <a href="#" class="list-link">Contact</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">References</a>
                     </li>
                     <li class="list-item screen-lg-hidden">
                         <a href="./signin.html" class="list-link">Sign in</a>
@@ -91,39 +82,64 @@
     <section class="blog-post section-header-offset">
         <div class="blog-post-container container">
             <div class="blog-post-data">
-                <h3 class="title blog-post-title">Is VR the future?</h3>
+                <h3 class="title blog-post-title">Linear Search vs Binary Search</h3>
                 <div class="article-data">
-                    <span>Dec 6th 2021</span>
+                    <span>May 26th 2022</span>
                     <span class="article-data-spacer"></span>
                     <span>4 Min read</span>
                 </div>
-                <img src="./assets/images/featured/featured-1.jpg" alt="">
+                <img src="./assets/images/featured/algorithm-1.jpeg" alt="">
             </div>
 
             <div class="container">
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis eius possimus hic eligendi distinctio rerum incidunt, esse quasi eum molestiae ducimus ipsam quae, aliquid ullam placeat dolorum nulla vero. Quam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente repellat consequatur culpa, repudiandae aut dolores iusto. Rem natus soluta, dolores, ad deleniti, aut dolorem corrupti quasi amet unde delectus hic?
-                </p>
-                
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis eius possimus hic eligendi distinctio rerum incidunt, esse quasi eum molestiae ducimus ipsam quae, aliquid ullam placeat dolorum nulla vero. Quam? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero quod necessitatibus, aspernatur pariatur asperiores earum quas adipisci veritatis quidem facilis! Nihil veniam quaerat nulla possimus, asperiores vero voluptatum placeat. Eveniet!
+                <p class="indent">
+                    Searching Algorithms are used to find whether a specific group of data exists within  
+                    a data structure. If it does exist, a search algorithm will find it and retrieve the 
+                    information. There are many diverse types of search algorithms. We will look at two well-known
+                     algorithms for searching: Linear and Binary search algorithms.
                 </p>
 
-                <blockquote class="quote">
-                    <p><span><i class="ri-double-quotes-l"></i></span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptates, laboriosam voluptatum quos non consequuntur nesciunt necessitatibus tempora quod inventore corporis rem nihil itaque, at provident minus aliquam veritatis. Labore?  <span><i class="ri-double-quotes-r"></i></span></p>
-                </blockquote>
-            
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis eius possimus hic eligendi distinctio rerum incidunt, esse quasi eum molestiae ducimus ipsam quae, aliquid ullam placeat dolorum nulla vero. Quam? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero quod necessitatibus, aspernatur pariatur asperiores earum quas adipisci veritatis quidem facilis! Nihil veniam quaerat nulla possimus, asperiores vero voluptatum placeat. Eveniet!
+                <p class="indent">
+                    Linear Search is a search algorithm that begins at one end of a data structure, checking
+                    each data item in turn until the required item is found, or the end of the structure is
+                    reached. If data is unordered and irregular, the most sensible way to solve this problem
+                    is linear search algorithm. Linear searches start at the beginning and sequentially look
+                    at each item in a list until you find the one you are looking for or until all of the items
+                    have been searched. If the data is at the beginning of the list, the search process is
+                    completed in a short time, but if it is towards the end of the list and the data set is
+                    large, the search process may take a long time. Linear Searches are relatively simple, 
+                    but they are inefficient when searching through long lists. 
                 </p>
+                
+                <p class="indent">
+                    Binary Search algorithm that begins in the middle of a data structure, cutting half of the 
+                    remaining data with each pass. Binary searches are only appropriate when the data is sorted. 
+                    If the data is sequential, the most efficient search method is the binary search algorithm. 
+                    It works by repeatedly dividing in half the part of the data list that could contain the required 
+                    data item. The binary search algorithm is quite efficient because half of the data that is not 
+                    searched is eliminated in one go. If a list of one million elements were to be searched using 
+                    a binary search, it would take no more than 20 iterations to find a particular piece of data 
+                    or discover that the data is not in the list. 
+                </p>
+
+                <p class="indent">
+                    The linear search algorithm is fine for small lists, but very inefficient for large lists. 
+                    In contrast, the binary search algorithm is extremely efficient. Each time an item is examined, 
+                    if it is not the correct item, half of the list is discarded. At this point, it is necessary to 
+                    look at the list and choose the most suitable algorithm according to it. 
+                </p>
+
+                
+            
+                
 
                 <div class="author d-grid">
                     <div class="author-image-box">
                         <img src="./assets/images/author.jpg" alt="" class="article-image">
                     </div>
                     <div class="author-about">
-                        <h3 class="author-name">John Doe</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quis repellat rerum, possimus cumque dolor repellendus eligendi atque explicabo exercitationem id.</p>
+                        <h3 class="author-name">Murat Atçeken</h3>
+                        <p>Medipol University</p>
                         <ul class="list social-media">
                             <li class="list-item">
                                 <a href="#" class="list-link"><i class="ri-instagram-line"></i></a>
@@ -147,9 +163,9 @@
             
             <div class="company-data">
                 <a href="./index.html">
-                    <h2 class="logo">NewsFlash</h2>
+                    <h2 class="logo">Murat Atçeken</h2>
                 </a>
-                <p class="company-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, iure. Harum, animi dolores, nam, ad magni expedita.</p>
+                <p class="company-description">Blog page for school project.</p>
                 <ul class="list social-media">
                     <li class="list-item">
                         <a href="#" class="list-link"><i class="ri-instagram-line"></i></a>
@@ -164,7 +180,7 @@
                         <a href="#" class="list-link"><i class="ri-pinterest-line"></i></a>
                     </li>
                 </ul>
-                <span class="copyright-notice">&copy;2021 NewsFlash. All rights reserved.</span>
+                <span class="copyright-notice">&copy;2022 Murat Atçeken. All rights reserved.</span>
             </div>
 
             <div>
